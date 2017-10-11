@@ -1,0 +1,287 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+/*navigation*/
+.navbar{
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow",sans-serif,arial;
+  font-weight: 600;
+  background-color: #fff;
+}
+.navbar a{
+  opacity: 0.7;
+  word-spacing: 1px !important;
+  letter-spacing: 0.5px;
+}
+.navbar a:hover{
+  opacity: 1;
+  background-color: #3498db;
+}
+
+
+/*header*/
+#header img{
+  margin-top: 48px;
+  width: 100%;
+  height: 625px;
+}
+
+
+/*services*/
+.services{
+  padding: 80px 0 50px;
+  text-align: center;
+}
+.services .row{
+  margin-top: 50px;
+}
+.services h2{
+  color: #adcaca;
+}
+.services h1,
+.services h4{
+  color: #4c4c4c;
+  margin: 20px 0 20px;
+  font-weight: 500;
+}
+.services p{
+  color: #73737373;
+  font-size: 15px;
+  padding-bottom: 40px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.services i{
+  height: 120px;
+  width: 120px;
+  font-size: 50px;
+  padding: 38px 30px;
+  border-radius: 50%;
+  background-color: #6699cc;
+  color: #fff;
+}
+
+
+/*price*/
+.price{
+  padding: 50px 0 50px;
+  text-align: center;
+  background-color: #3399ff;
+}
+.price h2,
+.price p{
+  color: #fff;
+}
+.price p{
+  padding-bottom: 40px;
+}
+.price .packages{
+  padding: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.price .packages:hover{
+  box-shadow: 0px 2px 20px 9px rgba(0,0,0,0.19);
+}
+.packages li{
+  display: black;
+  padding: 5px;
+  list-style-type: none;
+}
+.packages h4{
+  text-transform: uppercase;
+    font-weight: 600;
+    color: #16a085;
+}
+.packages p{
+  padding-top: 10px;
+  color: #737373;
+}
+.packages button{
+  margin-top: 20px;
+}
+.packages{
+    width: 90%;
+    margin-left: 15px;
+}
+#bronze{
+  color:yellow;
+}
+#silver{
+  color:#8e44ad;
+}
+#gold{
+  color: #f1c40f;
+}
+#premium{
+  color:#c0392b;
+}
+
+
+/*packages */
+#img:hover{
+animation: zoomOut 1s;
+animation-fill-mode: forwards;
+}
+#team-col img{
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+}
+#team{
+text-align: center;
+}
+#team h3{
+   font-weight: 580;
+   font-family: sans-serif;
+}
+#team-h3{
+  color: #d1d6d4;
+}
+#team h2{
+  margin-top: 50px;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+  color: #adcaca;
+}
+#team h4{
+  font-size: 18px;
+  padding-top: 20px;
+}
+#team p{
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#team i{
+  font-size: 20px;
+  margin-left: 15px;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+#team i:hover{
+  color: rgb(232, 230, 24);
+}
+
+
+/*client*/
+.client .row{
+  margin-top: 10px;
+  background-color: rgb(42, 62, 198);
+}
+.client{
+  background-color: rgb(42, 62, 198);
+  text-align: center;
+}
+.client img{
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 500ms ease-in-out;
+  margin-bottom: 100px;
+}
+#client-col{
+  margin-top: 50px;
+}
+#client h2{
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+.client img:hover{
+  opacity: 1;
+}
+
+
+/*contact*/
+.contact{
+  text-align: center;
+  padding: 50px 0 40px;
+}
+.contact p{
+  padding-bottom: 80px;
+  color: #d1d6d4;
+}
+.contact h2{
+  color: #adcaca;
+  margin: 20px 0 20px;
+  text-transform: uppercase;
+}
+.contact .input-group{
+  margin-bottom: 25px;
+}
+.contact .form-control{
+  border-radius: 0 !important;
+}
+.contact span{
+  border-radius: 0 !important;
+}
+.contact .btn{
+  border-radius: 0;
+  width: 100%;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.contact i{
+  width: 20px;
+}
+.fa-user{
+  color: #2980b9;
+}
+.fa-envelope{
+  color:#f1c40f;
+}
+.fa-phone{
+  color:#27ae60;
+}
+.fa-home{
+  color:#c0392b;
+}
+.fa-globe{
+  color:#1abc9c;
+}
+
+
+/*footer*/
+.footer{
+  padding: 30px;
+  background-color: #222222;
+  color: #cccccc;
+}
+.footer #social {
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+.footer input{
+  height: 32px;
+  width: 220px;
+  padding: 5px;
+  color: #111111;
+  clear: both;
+}
+.footer .btn{
+  border-radius: 0 !important;
+  height: 32px;
+}
+.footer #con-detail i{
+  margin: 5px;
+}
+.credit{
+  text-align: center;
+  background-color: #111111;
+  color: #ccc;
+}
